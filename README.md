@@ -1,2 +1,2 @@
 # APITestingFramework
-This is anew API Project
+This is a new API testing Project
