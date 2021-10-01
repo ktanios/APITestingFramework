@@ -1,0 +1,15 @@
+// REST
+GET    mockend.com/<org>/<repo>/users?<params...>
+GET    mockend.com/<org>/<repo>/users/<id>
+POST   mockend.com/<org>/<repo>/users
+PUT    mockend.com/<org>/<repo>/users/<id>
+DELETE mockend.com/<org>/<repo>/users/<id>
+
+// GraphQL
+mockend.com/<org>/<repo>/graphql
+`{
+	users(limit: 5) {
+		name
+		online
+	}
+}`
