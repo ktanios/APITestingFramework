@@ -1,0 +1,33 @@
+// REST
+GET    mockend.com/<org>/<repo>/users?<params...>
+GET    mockend.com/<org>/<repo>/users/<id>
+POST   mockend.com/<org>/<repo>/users
+PUT    mockend.com/<org>/<repo>/users/<id>
+DELETE mockend.com/<org>/<repo>/users/<id>
+
+// GraphQL
+mockend.com/<org>/<repo>/graphql
+`{
+	users(limit: 15) {
+		name
+		online
+	}
+}`
+{
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "Nick",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "string"
+    }
+  ],
+  "status": "unavailable"
+}
